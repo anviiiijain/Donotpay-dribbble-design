@@ -13,6 +13,9 @@ module.exports = {
           '100' : '#9b35d0',
           '200': '#bb38c1',
       }
+      },
+      borderRadius:{
+        'default' : '20rem',
       }
     },
   },
