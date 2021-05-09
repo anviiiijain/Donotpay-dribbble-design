@@ -1,47 +1,47 @@
 const JoinUs=()=>{
     const titles=['Communication Coordination','Data Science','Development Support Engineer','Sales Finance Leader']
     return(
-        <div className="my-32">
-            <div className="mx-auto text-center w-2/3 "> 
+        <div className="my-16 md:my-32">
+            <div className="mx-auto text-center w-10/12 "> 
                 <div className="text-sm font-semibold text-gray-600">What are you waiting for..</div>
                 <div className="text-2xl font-bold  text-gray-800">Interested in joining us?</div>
             </div>
-            <div className="w-2/5 mx-auto my-10 "> 
-                <div className="flex justify-between  items-center bg-smoke my-3 px-4 py-2 rounded">
-                    <div className="flex items-center">
+            <div className="w-11/12 md:w-2/3 mx-auto my-5 md:my-10 "> 
+                <div className="flex justify-between  items-center bg-smoke my-3 px-4 py-3 rounded cursor-pointer">
+                    <div className="flex flex-col md:flex-row md:items-center">
                         <div className="text-sm font-semibold  text-gray-800">Communications Coordinator</div>
-                        <div className="text-xs text-gray-600 ml-5">San Francisco</div>
+                        <div className="text-xs text-gray-600 md:ml-5">San Francisco</div>
                     </div>
                     <div>{`-`}</div>
                 </div>
-                <div className="flex justify-between  items-center bg-smoke my-3 px-4 py-2 rounded">
-                    <div className="flex items-center">
+                <div className="flex justify-between  items-center bg-smoke my-3 px-4 py-3 rounded cursor-pointer">
+                    <div className="flex flex-col md:flex-row md:items-center">
                         <div className="text-sm font-semibold  text-gray-800">Data Scientist</div>
-                        <div className="text-xs text-gray-600 ml-5">San Francisco</div>
+                        <div className="text-xs text-gray-600 md:ml-5">San Francisco</div>
                     </div>
                     <div>{`-`}</div>
                 </div>
-                <div className="flex justify-between  items-center bg-smoke my-3 px-4 py-2 rounded">
-                    <div className="flex items-center">
+                <div className="flex justify-between  items-center bg-smoke my-3 px-4 py-3 rounded cursor-pointer">
+                    <div className="flex flex-col md:flex-row md:items-center">
                         <div className="text-sm font-semibold  text-gray-800">Developer Support Engineer</div>
-                        <div className="text-xs text-gray-600 ml-5">San Francisco</div>
+                        <div className="text-xs text-gray-600 md:ml-5">San Francisco</div>
                     </div>
                     <div>{`-`}</div>
                 </div>
-                <div className="flex justify-between  items-center bg-smoke my-3 px-4 py-2 rounded">
-                    <div className="flex items-center">
+                <div className="flex justify-between  items-center bg-smoke my-3 px-4 py-3 rounded cursor-pointer">
+                    <div className="flex flex-col md:flex-row md:items-center">
                         <div className="text-sm font-semibold  text-gray-800">Sales Finances Leader</div>
-                        <div className="text-xs text-gray-600 ml-5">San Francisco</div>
+                        <div className="text-xs text-gray-600 md:ml-5">San Francisco</div>
                     </div>
                     <div>{`-`}</div>
                 </div>
             </div>
-            <div className="w-96 text-xs text-center text-gray-500 font-semibold mx-auto">
+            <div className="w-5/6 md:w-96 text-xs text-center text-gray-500 font-semibold mx-auto">
                 <div className="py-5 leading-relaxed"> 
                     <div>Don't find a position that fits you?Don't wory you can send us your</div>
                     <div> CV and we will review it with our team ASAP</div>
                 </div>
-                <div className="text-white bg-pink px-4 py-2 my-3 w-20 rounded mx-auto">Send CV</div>
+                <div className="text-white bg-pink p-2 md:px-4 md:py-3 my-3 w-20 rounded mx-auto">Send CV</div>
             </div>
         </div>
     )
