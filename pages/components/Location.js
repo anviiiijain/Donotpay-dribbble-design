@@ -1,6 +1,6 @@
 const Location=()=>{
     return(
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-11/12 lg:w-2/3 mx-auto my-20 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-11/12 lg:w-2/3 mx-auto my-32 items-center">
             <div className="col-span-1 md:col-span-2 grid grid-cols-6 gap-5">
                 <img className="bg-pink rounded  col-span-2 col-start-2" src="./location1.jpg"/>
                 <img className="bg-pink rounded  col-span-3 self-end" src="./location2.jpg"/>

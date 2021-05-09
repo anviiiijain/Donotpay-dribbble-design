@@ -15,7 +15,7 @@ module.exports = {
       }
       },
       borderRadius:{
-        'default' : '20rem',
+        'default' : '16rem',
       }
     },
   },
