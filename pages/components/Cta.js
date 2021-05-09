@@ -1,10 +1,9 @@
 const Cta=()=>{
     return(
         <div className="bg-smoke rounded-tr-default border-b-2 grid grid-cols-2 gap-20">
-            <div>
-                <img src=""/>
-                <img src=""/>
-
+            <div className="flex transform rotate-45 relative right-56">
+                <img  className="rounded-2xl h-96 mx-5"  src="./mobile1.jpeg"/>
+                <img  className="rounded-2xl h-96 mx-5" src="./mobile2.jpeg"/>
             </div>
             <div className="w-1/2 py-20">
                 <div className="text-2xl font-extrabold text-gray-800 py-4">
