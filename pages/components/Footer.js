@@ -1,10 +1,14 @@
+import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import AppleIcon from '@material-ui/icons/Apple';
+
 const Footer=()=>{
     return(
-        <div className="bg-smoke">
+        <div className="bg-smoke z-50">
             <div className="grid grid-cols-4 md:grid-cols-5 w-2/3 mx-auto md:pt-16 md:pb-5">
             
                 <div className="col-span-4 md:col-span-2 text-xs text-gray-600">
-                    <div className="font-bold text-lg text-gray-800 py-2">DoNotPay</div>
+                    <div className="font-bold text-lg text-gray-800 py-2 pt-8 md:pt-2">DoNotPay</div>
                     <div className="py-3 pb-8">
                         <div>The DoNotPay app is the home of the world's</div>
                         <div> robot lawyer.fight corporations , beat bureaucracy</div>
@@ -41,7 +45,17 @@ const Footer=()=>{
             </div>
             <div className="flex flex-col-reverse md:flex-row justify-between text-xs text-gray-600 w-2/3 mx-auto py-5 items-center">
                 <div>©2020 donotpay | All rights reserved</div>
-                <div>icons</div>
+                <div className="flex items-center text-white ">
+                    <div className="m-1 rounded-full shadow p-1.5 bg-purple-200">
+                        <InstagramIcon fontSize="small"/>
+                    </div>
+                    <div className="m-1 rounded-full shadow p-1.5 bg-blue-500">
+                        <TwitterIcon fontSize="small"/>
+                    </div>
+                    <div className="m-1 rounded-full shadow p-1.5 bg-purple-50">
+                        <AppleIcon fontSize="small"/>
+                    </div>
+                </div>
             </div>
         </div>
     )
