@@ -4,7 +4,7 @@ import AppleIcon from '@material-ui/icons/Apple';
 
 const Footer=()=>{
     return(
-        <div className="bg-smoke z-50">
+        <div className="bg-smoke z-20">
             <div className="grid grid-cols-4 md:grid-cols-5 w-2/3 mx-auto md:pt-16 md:pb-5">
             
                 <div className="col-span-4 md:col-span-2 text-xs text-gray-600">
@@ -39,20 +39,20 @@ const Footer=()=>{
                     <div className="text-xs text-gray-600">
                         <div className="py-1">180 Suite 201</div>
                         <div className="py-1">California</div>
-                        <div className="underline text-purple-50 font-semibold py-1">support@donotpay.com</div>
+                        <div className="underline text-purple-50 font-semibold py-1 cursor-pointer">support@donotpay.com</div>
                     </div>
                 </div>
             </div>
             <div className="flex flex-col-reverse md:flex-row justify-between text-xs text-gray-600 w-2/3 mx-auto py-5 items-center">
                 <div>©2020 donotpay | All rights reserved</div>
                 <div className="flex items-center text-white ">
-                    <div className="m-1 rounded-full shadow p-1.5 bg-purple-200">
+                    <div className="cursor-pointer m-1 rounded-full shadow p-1.5 bg-purple-200 hover:p-2 trasition-all ease-in-out">
                         <InstagramIcon fontSize="small"/>
                     </div>
-                    <div className="m-1 rounded-full shadow p-1.5 bg-blue-500">
+                    <div className="cursor-pointer m-1 rounded-full shadow p-1.5 bg-blue-500 hover:p-2 trasition-all ease-in-out">
                         <TwitterIcon fontSize="small"/>
                     </div>
-                    <div className="m-1 rounded-full shadow p-1.5 bg-purple-50">
+                    <div className="cursor-pointer m-1 rounded-full shadow p-1.5 bg-purple-50 hover:p-2 trasition-all ease-in-out">
                         <AppleIcon fontSize="small"/>
                     </div>
                 </div>

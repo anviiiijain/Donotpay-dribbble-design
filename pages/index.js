@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 export default function Home() {
   return (
-    <div>
+    <>
       {/* NAVBAR */}
       <Navbar/>
       {/* HERO */}
@@ -26,6 +26,6 @@ export default function Home() {
       <Cta/>
       {/* FOOTER */}
       <Footer/>
-    </div>
+    </>
   )
 }
